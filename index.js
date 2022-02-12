@@ -101,7 +101,8 @@ var coverPhotoContainer = document.querySelector('.cover-photo-container');
 var profilePhoto = document.querySelector('.profile-photo')
 var profileDetailsContainer = document.querySelector('.profile-details-container');
 var tweetsContainer = document.querySelector('.tweets-container');
-
+var urlParams = new URLSearchParams(window.location.search);
+console.log(urlParams.get('user'));
 
 
 
